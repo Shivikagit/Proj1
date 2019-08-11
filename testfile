@@ -4,9 +4,9 @@ pipeline {
             stage ("Shell execute") {
                 steps {
                     sh 'ls -l'
-                    touch test.result
-                      }
+                    sh 'touch test.result'
                 }
-               }
             }
+       }
+ }
 
